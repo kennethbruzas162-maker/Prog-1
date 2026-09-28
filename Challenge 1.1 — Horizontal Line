@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main () {
+    //variable
+    int count = 0;
+
+    while (count <= 7){
+         printf("*");
+        count++;
+      
+    }
+
+    return 0;
+}
+
+  
