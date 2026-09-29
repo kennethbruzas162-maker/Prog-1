@@ -1,0 +1,19 @@
+// Online C compiler (editor)
+// Write and run C online using this editor.
+
+#include <stdio.h>
+
+int main() {
+    int row = 5; //starts from 5 stars
+
+    while(row >= 1) {   // go down to 1 star
+        int col = 1;
+        while(col <= row) {  //asterisks=row number
+            printf("*");
+            col++;
+        }
+        printf("\n");
+        row--;
+    }
+    return 0;
+}
