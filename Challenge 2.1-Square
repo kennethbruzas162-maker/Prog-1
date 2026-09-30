@@ -2,13 +2,17 @@
 
 int main () {
     //variable
-    int row = 1;
+    int counter = 0;
 
-    while (row <= 4){
-         printf("****\n");
-        row++;
-      
+    while (counter < 4){
+        int column = 0;
+        
+        while (column < 4) {
+              printf("*");
+        column++;  
+        }
+    printf("\n");
+    counter++;
     }
-
     return 0;
 }
