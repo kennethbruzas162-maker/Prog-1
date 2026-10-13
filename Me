@@ -1,0 +1,140 @@
+    * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: #f1f0f5;
+            color: #26313d;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.45;
+        }
+
+        /* Header */
+        header {
+            background-color: #07566b;
+            color: white;
+            text-align: center;
+            padding: 28px 16px 26px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 42px;
+        }
+
+        header p {
+            margin: 2px 0 0;
+            font-style: italic;
+            color: #e4edf0;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #f0a900;
+            text-align: center;
+            padding: 12px 10px;
+        }
+
+        nav a {
+            color: #554323;
+            margin: 0 13px;
+            font-weight: bold;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 850px;
+            margin: 28px auto 18px;
+            padding: 0 12px;
+        }
+
+        /* Articles */
+        article {
+            background-color: white;
+            border: 1px solid #e2e0e5;
+            padding: 22px 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+
+        article h2 {
+            color: #263b50;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 27px;
+            margin: 0 0 18px;
+        }
+
+        .date {
+            color: #646873;
+            font-size: 13px;
+            margin-bottom: 14px;
+        }
+
+        article p {
+            margin: 0 0 13px;
+        }
+
+        /* Travel Tips */
+        .tip {
+            background-color: #eeeeF1;
+            padding: 10px 12px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        /* About Section */
+        #about {
+            max-width: 850px;
+            margin: 20px auto 28px;
+            padding: 16px 20px;
+            background-color: #f7eadc;
+            border: 2px dashed #c6a47e;
+        }
+
+        #about h2 {
+            margin: 0 0 12px;
+            color: #8b4c3f;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 20px;
+        }
+
+        #about p {
+            margin: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #09283f;
+            color: #dbe3e9;
+            text-align: center;
+            padding: 24px 12px;
+            font-size: 13px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 34px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            main {
+                margin-left: 12px;
+                margin-right: 12px;
+            }
+
+            #about {
+                margin-left: 12px;
+                margin-right: 12px;
+            }
+
+            article {
+                padding: 18px;
+            }
+        }
